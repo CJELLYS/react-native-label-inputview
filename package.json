@@ -1,0 +1,17 @@
+{
+  "name": "react-native-label-inputview",
+  "version": "1.0.0",
+  "description": "Entering text submissions becomes a sorting label",
+  "main": "labelInputView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native-label-inputview",
+    "label",
+    "tag",
+    "textinput"
+  ],
+  "author": "Jelly",
+  "license": "ISC"
+}
