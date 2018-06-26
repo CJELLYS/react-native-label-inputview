@@ -1,17 +1,47 @@
 {
-  "name": "react-native-label-inputview",
-  "version": "1.0.0",
-  "description": "Entering text submissions becomes a sorting label",
-  "main": "labelInputView.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "react-native-label-inputview@1.0.2",
+      "/Users/jellycao/Desktop/bieDemo"
+    ]
+  ],
+  "_from": "react-native-label-inputview@1.0.2",
+  "_id": "react-native-label-inputview@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-NfMJDPbIGtyJmIKuusYBq4+t0Rw=",
+  "_location": "/react-native-label-inputview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-label-inputview@1.0.2",
+    "name": "react-native-label-inputview",
+    "escapedName": "react-native-label-inputview",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/react-native-label-inputview/download/react-native-label-inputview-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/Users/jellycao/Desktop/bieDemo",
+  "author": {
+    "name": "Jelly"
+  },
+  "description": "Entering text submissions becomes a sorting label",
   "keywords": [
     "react-native-label-inputview",
     "label",
     "tag",
     "textinput"
   ],
-  "author": "Jelly",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "labelInputView.js",
+  "name": "react-native-label-inputview",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
 }

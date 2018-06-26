@@ -10,8 +10,9 @@ react-native-label-inputview Support iOS & Android;
 npm i react-native-label-inputview --save
 
 ```
-![示例](./labelView.gif)
-![示例](./labelImage.jpg)
+
+ ![](./labelView.gif) 
+
 
 
 ## Use
@@ -19,15 +20,18 @@ npm i react-native-label-inputview --save
 import LabelInputView from 'react-native-label-inputview'
 
 export default class KeyBoardDismissView extends Component {
+   addLabelAction(list){
+    console.log("-=======>>>>>",list);
+  }
+
   render() {
-    return (<View>
-                <LabelInputView  
-                labelMaxLimitNum={6}                 
-                labelAry={this.state.labelAry} 
-                addLabelAction = {this.addLabelAction.bind(this)}/>
+    return (
+      <View style={styles.container}>
+        <LabelInputView
+          labelAry={[]}
+          addLabelAction={this.addLabelAction.bind(this)} />
       </View>
     );
-  }
 }
 ```
 

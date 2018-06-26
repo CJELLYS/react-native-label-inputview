@@ -127,7 +127,7 @@ export default class LabelInputView extends Component {
 
 LabelInputView.defaultProps = {
     labelAry: [],
-    labelMaxLimitNum: 6,//限制最多有多少个标签
+    labelMaxLimitNum: 10,//限制最多有多少个标签
     popupWindowAction: f => f,//弹窗提示
     addLabelAction: f => f,// 添加标签到ary中.外界可以获取到
     labelWrapStyle: {},//label View style
